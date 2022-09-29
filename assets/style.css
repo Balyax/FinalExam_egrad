@@ -1,0 +1,218 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* font-style:; */
+}
+
+.logo h1 {
+    color: greenyellow;
+    padding: 15px 30px; 
+}
+
+.main{
+    display: flex;
+    padding-top: 50px;
+    margin: 0 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.menu-home {
+    padding-left: 30px;
+}
+
+.menu-home ul
+{
+    list-style: none;
+    color: white;
+    padding: 12px 10px;
+    background-color: black;
+    height: 20px;
+}
+
+.menu-pencarian {
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+
+.input-pencarian {
+    background-color: black;
+}
+
+.btn-pencarian button{
+    font-weight: bold;
+    padding: 2px 1px;
+    margin-left: 10px;
+    color: greenyellow;
+    background-color: black;
+}
+
+
+.image-utama img{
+    box-shadow: 0 4px 8px yellowgreen;
+    padding: 5px;
+    max-width: 620px;
+    max-height: 270px;
+}
+
+.image-utama h4 {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.image-utama p {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.main-bottom {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gambar-bottom  img {
+    /* display: flex;
+    justify-content: center; */
+    box-shadow: 0 4px 8px yellowgreen;
+    padding: 5px;
+    max-width: 190px;
+    max-height: 80px;
+}
+
+.gambar-bottom p {
+    padding-top: 15px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.txt-reading{
+    padding: 20px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.txt-reading a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.content-right {
+    display: flex;
+}
+
+.gambar-mainkanan {
+    padding-bottom: 20px;
+}
+
+.gambar-mainkanan img{
+    box-shadow: 0 4px 8px yellowgreen;
+    padding: 5px;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 15px;
+} 
+
+
+.text-box h3{
+    font-size: 12px;
+    color: yellowgreen;
+    padding-bottom: 5px;
+    padding-top: none;
+}
+
+.text-box p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.content-right {
+    padding: 20px;
+}
+
+.gallery-container h1{
+    font-size: 1000%;
+    text-align: center;
+    padding: 30px 0;
+    color: grey;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-collectiom{
+    padding: 20px;
+}
+
+.image-collectiom img{
+    box-shadow: 0 4px 8px yellowgreen;
+    padding: 7px;
+    max-width: 174px;
+    max-height: 174px;
+}
+
+.footer {
+    background-color: #151515;
+    color: grey;
+}
+
+.footer p {
+    padding: 15px 40px;
+}
+
+
+@media(max-width: 768px) {
+
+    .logo h1 {
+        text-align: center; 
+    }
+    
+    .main {
+        display: inline;
+    }
+
+    .footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .txt-reading {
+        text-align: left;    
+    }
+
+    .txt-reading a {
+        font-size: 13px;
+    }
+
+    .gallery-container h1{
+        font-size: 80px;
+        text-align: center;
+        padding: 30px 0;
+        color: grey;
+    }
+
+    .image-utama img {
+        max-width: 425px;
+    }
+
+    .gambar-bottom img {
+        max-width: 130px;
+    }
+}
+
+
